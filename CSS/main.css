@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4F5F9;
+    position: relative;
+}
+
+/************ Section Header et Nav ********************/
+#section1 {
+    background-color: #311c6b;
+    width: 100%;
+
+}
+
+#header1 {
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: azure;
+    margin-left: 5px;
+}
+
+.menu {
+    text-align: center;
+    background-color: rgb(206, 206, 233);
+    height: 50px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+.menu a {
+    display: block; /* Transformation en block */
+    min-width: 120px; /* Largeur minimale des liens */
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    text-align: center;
+    background-color: #1ABC9C;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.menu a:hover {
+    background-color: #ed2794;
+    color: #ffe843;
+    border-color: #ffe843;
+}
+
+
+/************ section formulaire ********************/
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"],
+select {
+    padding: 6px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+
+.formulaire {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #ccc; /* Couleur de la bordure */
+    padding: 20px; /* Espacement à l'intérieur du formulaire */
+    background-color: #7650E0; /* Couleur de fond à l'intérieur du formulaire */
+}
